@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/test_bug_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="testBug"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Test Bug" />
+
+    <Button
+        android:id="@+id/test_load_patch_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/test_bug_bt"
+        android:onClick="loadPatch"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Load Patch" />
+
+</RelativeLayout>
